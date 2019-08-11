@@ -1,6 +1,6 @@
 {
   "name": "@rapin/telegraf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rapin Telegraf",
   "main": "lib/index.js",
   "typings": "types/index.d.ts",
@@ -14,13 +14,15 @@
   ],
   "scripts": {
     "tslint": "tslint {src}/**/*.ts --fix",
-    "build": "rimraf lib && tsc -p ."
+    "build": "rimraf lib && tsc -p .",
+    "dev": "rimraf lib && tsc -w -p ."
   },
   "dependencies": {
     "lodash": "^4.17.15",
     "telegraf": "^3.32.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.136",
     "@types/node": "^12.6.8",
     "rimraf": "^2.6.3",
     "tslint": "^5.18.0",

@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "telegraf": "^3.32.0"
+    "telegraf": "^4.2.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.136",
